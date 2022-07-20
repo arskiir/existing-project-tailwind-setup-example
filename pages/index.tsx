@@ -19,7 +19,9 @@ const Home: NextPage = () => {
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
 
-        <p>{t('welcome')}</p>
+        <p className="hover:transform hover:-translate-y-28 transition-all">
+          {t('welcome')}
+        </p>
 
         <p className={styles.description}>
           Get started by editing{' '}
